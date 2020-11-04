@@ -1,0 +1,132 @@
+<style>
+  body{
+    background-color:darkgrey !important;
+  }
+</style>
+<nav class="navbar navbar-light bg-light bxs">
+  <a class="navbar-brand" href="#">
+    <img src="../assets/saflogo.png" width="130" height="80" class="d-inline-block align-top" alt="" loading="lazy">
+    <b>ITNPS</b>
+  </a>
+</nav>
+<div class="screen">
+  <div class="container">
+    <div class="row">
+      <div class="sidemenu col-2">
+        <div class="card bxs" style="width: 18rem; padding: 1%;">
+
+          <div class="card-body">
+            <img src="..." class="rounded float-left d-inline-block" alt="...">
+            <h5 class="card-title"><b>Damaris Njeri</b></h5>
+            <p class="card-text">Manager</p>
+          </div>
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">Dashboard</a>
+            <a href="#" class="list-group-item list-group-item-action">Reports</a>
+            <a href="#" class="list-group-item list-group-item-action">Responses</a>
+            <a href="#" class="list-group-item list-group-item-action">Help</a>
+            <a href="#" class="list-group-item list-group-item-action">Logout</a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="main-content-pane col-8">
+        <div class="search-controls bxs">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <input type="text" class="start-date-search" placeholder="start-date">
+              </div>
+              <div class="col">
+                <input type="text" class="end-date-search" placeholder="end-date">
+              </div>
+              <div class="col">
+                <input type="button" class="btn btn-success" value="Filter">
+              </div>
+
+              <div class="col">
+                <input type="button" class="btn btn-success" value="Clear">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="stat-panes bxs">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Total NPS</h5>
+
+                    <h1 class="display-4 text-success">
+                        60%
+                    </h1>
+
+
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-sm-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <h6>Issues Resolution</h6>
+                  </h5>
+                  <p class="card-text text-danger">
+                    40% no
+                  </p>
+                  <p class="card-text text-success">
+                   60% yes
+                  </p>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <h6>Detractors</h6>
+                  </h5>
+                  <h4>10%</h4>
+                  <div class="progress" style="height: 3px;">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <h6>Promoters</h6>
+                  </h5>
+                  <h4>60%</h4>
+                  <div class="progress" style="height: 3px;">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="bxs itnps-graph-holder">
+          <app-tnps-trends></app-tnps-trends>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>

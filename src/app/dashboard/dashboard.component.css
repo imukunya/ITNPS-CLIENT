@@ -1,0 +1,25 @@
+
+.navbar{
+  background-color: #fff;
+
+}
+.bxs{
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.screen{
+  width: 90%;
+  margin:0 auto;
+  margin-top:3%
+}
+.main-content-pane{margin-left: 13%;}
+
+.search-controls{
+  padding:3%;
+}
+.stat-panes{
+  margin:1%;
+  padding: 1%;
+}
+list-group-item>{
+  color:green
+}
